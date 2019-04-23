@@ -32,10 +32,7 @@ a {
 
 .fixed-wrap.works {
   z-index: 3;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: auto;
   background-color: hsla(236.25, 80.00%, 68.63%, 1.00);
 }
@@ -293,7 +290,7 @@ a {
     font-size: 58px;
   }
   .fixed-wrap {
-    height: 88vh;
+    height: auto;
   }
   .logo {
     position: absolute;
@@ -319,6 +316,7 @@ a {
     min-height: 325px;
   }
   .landing-wrap.right {
+    max-height: none;
     padding-top: 30px;
   }
   .landing-shadow {
