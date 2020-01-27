@@ -208,6 +208,8 @@ a {
   max-width: 650px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
