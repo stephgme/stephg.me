@@ -32,10 +32,7 @@ a {
 
 .fixed-wrap.works {
   z-index: 3;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: auto;
   background-color: #6f77ef;
 }
@@ -204,7 +201,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: scroll;
+  overflow: visible;
   max-width: 650px;
   margin-right: auto;
   margin-left: auto;
@@ -225,6 +222,13 @@ a {
   align-items: center;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.works-wrapper.outside {
+  overflow: scroll;
+  max-width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .works-heading {
