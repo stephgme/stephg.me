@@ -1,0 +1,8 @@
+The following files failed to download during site export. Please check them in the designer assets view (images) or dashboard (fonts).
+
+fonts/AvenirNext-Bold-01.ttf
+fonts/AvenirNext-DemiBold-03.ttf
+fonts/AvenirNext-Italic-05.ttf
+fonts/AvenirNext-Medium-06.ttf
+fonts/AvenirNext-MediumItalic-07.ttf
+fonts/AvenirNext-Regular-08.ttf
